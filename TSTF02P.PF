@@ -1,0 +1,9 @@
+     A                                      UNIQUE
+     A          R RTSTF02P
+     A            TSTF02FID      3S 0       TEXT('ID Transaccion')
+     A            TSTF02COD     10A         TEXT('Codigo del Cliente')
+     A            TSTF02MOV      7S 0       TEXT('Numero de transaccion')
+     A            TSTF02CIU      3S 0       TEXT('Codigo de Ciudad')
+     A            TSTF02VAL     12S 0       TEXT('Valor de movimiento')
+     A            TSTF02FECH      L  B      DATFMT(*DMY) DATSEP('-')
+                K TSTF02FID                                                 
