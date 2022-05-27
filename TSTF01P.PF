@@ -1,0 +1,8 @@
+     A*TABLA DE CLIENTE
+     A                                      UNIQUE
+     A          R TSTF01P
+     A            TSTFCOD       10A         TEXT('ID CLIENTE')
+     A            TSTFCED        9S 0       TEXT('CEDULA CLIENTE')
+     A            TSTFNOM       10A         TEXT('NOMBRE CLIENTE')
+     A            TSTFAPE       10A         TEXT('APELLIDO CLIENTE')
+                K TSTFCOD                                             
